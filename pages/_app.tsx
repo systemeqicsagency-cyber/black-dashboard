@@ -43,12 +43,12 @@ function MyApp({ Component, pageProps }: AppProps) {
             animate="pageAnimate"
             variants={{
               pageInitial: {
-                opacity: 0,
-                transition: { duration: 0.7 },
+                opacity: 0.8,
+                transition: { duration: 0.3 },
               },
               pageAnimate: {
                 opacity: 1,
-                transition: { duration: 0.7 },
+                transition: { duration: 0.3 },
               },
             }}
           >
